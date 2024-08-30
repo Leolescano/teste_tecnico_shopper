@@ -1,0 +1,75 @@
+# Dependências
+node_modules/
+
+# Arquivos de compilação
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretório de cobertura de testes
+coverage/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Arquivos de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de lock de pacotes (você pode querer manter package-lock.json versionado)
+# package-lock.json
+yarn.lock
+
+# Arquivos de upload (se você estiver armazenando uploads localmente)
+uploads/
+
+# Arquivos de configuração local
+config.local.js
+
+# Arquivos de cache
+.npm
+.eslintcache
+
+# Arquivos de TypeScript
+*.tsbuildinfo
+
+# Arquivos de saída de teste
+test-results/
+
+# Arquivos de Docker
+.dockerignore
+
+# Arquivos de banco de dados local (se aplicável)
+*.sqlite
+
+# Outros
+*.pid
+*.seed
+*.pid.lock
